@@ -1,0 +1,46 @@
+dowload code
+https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js
+
+https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css
+
+--------------------------------
+for gap,
+ spaceBetween: 30,
+-----------------------------
+
+slidesPerView: "auto",
+spaceBetween: 30,
+
+--------------------
+
+for navigation:
+
+ <div class="swiper-button-next"></div>
+<div class="swiper-button-prev"></div>
+
+
+navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+---------------------
+for loop infinite:
+
+loop: true,
+
+---------------------
+
+cover flow:
+
+
+effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
