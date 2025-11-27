@@ -1,0 +1,159 @@
+@media (max-width: 1399px) {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+   
+    /* menu part start */
+    .menu-part {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #f1f1f1;
+        width: 120px;
+        text-align: center;
+        border-radius: 05%;
+    }
+    .header-part-collapse {
+        display: block;
+    }
+    .navigation {
+        position: relative;
+    }
+    .dropmenu {
+        top: 0%;
+        left: 100%;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+    }
+     /* menu part end */
+}
+
+@media (max-width: 768px) {
+    
+     /* menu part start */
+    .menu-part {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #f1f1f1;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .header-part-collapse {
+        display: block;
+    }
+    .navigation {
+        position: relative;
+    }
+    .dropmenu {
+        top: 0%;
+        left: 100%;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+    }
+     /* menu part end */
+} 
+
+@media (max-width: 576px) {
+    
+    /* welcome part start */
+
+    .welcome-content p {
+        font-size: 12px;
+    }
+    
+    /* welcome part end */
+
+     /* menu part start */
+    .menu-part {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #f1f1f1;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .header-part-collapse {
+        display: block;
+    }
+    .navigation {
+        position: relative;
+    }
+    .dropmenu {
+        top: 0%;
+        left: 100%;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+    }
+     /* menu part end */
+
+/*  achivemen part start */
+     .achivement-content-main h6 {
+        font-size: 10px;
+
+     }
+     .achivement-content-main h5 {
+        font-size: 15px;
+
+     }
+     /*  achivemen part end */
+
+} 
+
+@media (max-width: 320px) {
+
+    /*  welcome part start */
+    .menu-part {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #f1f1f1;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .header-part-collapse {
+        display: block;
+    }
+    .navigation {
+        position: relative;
+    }
+    .dropmenu {
+        position: unset;
+    }
+
+    .welcome-content p {
+        font-size: 10px;
+    }
+    .welcome-icon li i {
+        display: none;
+    }
+
+    /*  welcome end */
+
+    /*  achivemen part start */
+    .achivement-content-main h6 {
+        font-size: 5px;
+     }
+     /*  achivemen part end */
+
+     /* event part start */
+     .event-head h3 {
+        font-size: 15px;
+     }
+     .event-content h6 {
+        font-size: 12px;
+     }
+     
+     /* event part end */
+}
